@@ -256,7 +256,7 @@ collections: # A list of collections the CMS should be able to edit
           default: DefaultPage,
         }
       - { label: Slug, name: slug, widget: string }
-      - { label: Title, name: title, widget: string }
+      - { label: Title, name: title, widget: string, required: false }
       - { label: Featured Image, name: featuredImage, widget: image, required: false }
       - { name: video, label: video, widget: file, required: false  }
       - { name: videoPoster, label: videoPoster, widget: image, required: false  }
