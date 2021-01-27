@@ -3,9 +3,9 @@ template: DefaultPage
 slug: default
 title: Default
 featuredImage: https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/
-video: https://ucarecdn.com/2a310546-c683-499e-b2d2-4a7227a6e5c1/
-videoPoster: https://ucarecdn.com/35527fa8-00d4-4853-b5bc-52cd84d732e2/
-videoTitle: test123
+video: ""
+videoPoster: ""
+videoTitle: ""
 meta:
   description: test meta description
   title: test meta title
