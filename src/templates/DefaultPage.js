@@ -16,7 +16,7 @@ export const DefaultPageTemplate = ({
   videoPoster,
   videoTitle,
 }) => {
-  if (title !== null || title !== undefined || title !== "" || backgroundImage !== null || backgroundImage !== undefined || backgroundImage !== "" || subtitle !== null || subtitle !== undefined || subtitle !== "") {
+  if (title !== null || title !== undefined || title !== "" || featuredImage !== null || featuredImage !== undefined || featuredImage !== "" || subtitle !== null || subtitle !== undefined || subtitle !== "") {
     return (
       <main className="DefaultPage">
         <PageHeader
