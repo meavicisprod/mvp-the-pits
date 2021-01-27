@@ -13,8 +13,6 @@ const PageHeader = ({
   className = ''
 }) => {
   if (large) className += ' PageHeader-large'
-
-  if (title !== null || title !== undefined || backgroundImage !== null || backgroundImage !== undefined || subtitle !== null || subtitle !== undefined) {
     return (
       <div className={`PageHeader relative ${className}`}>
         {backgroundImage && (
@@ -34,7 +32,6 @@ const PageHeader = ({
         </div>
       </div>
     )
-  }
 }
 
 PageHeader.propTypes = {

@@ -15,27 +15,39 @@ export const DefaultPageTemplate = ({
   video,
   videoPoster,
   videoTitle,
-}) => (
-  <main className="DefaultPage">
-      <PageHeader
-        title={title}
-        subtitle={subtitle}
-        backgroundImage={featuredImage}
-      />
-
-    <section className="section">
-      <div className="container">
-        <Content source={body} />
-      </div>
-    </section>
-
-    <section className="BackgroundVideo-section section">
-      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
-        {video && <source src={video} type="video/mp4" />}
-      </BackgroundVideo>
-    </section>
-  </main>
-)
+}) => {
+  if (title !== null || title !== undefined || backgroundImage !== null || backgroundImage !== undefined || subtitle !== null || subtitle !== undefined) {
+    return (
+      <main className="DefaultPage">
+        <PageHeader
+          title={title}
+          subtitle={subtitle}
+          backgroundImage={featuredImage}
+        />
+        <section className="section">
+          <div className="container">
+            <Content source={body} />
+          </div>
+        </section>
+      </main>
+    )
+  } else if (video !== null || video !== undefined || videoPoster !== null || videoPoster !== undefined || videoTitle !== undefined) {
+    return (
+      <main className="DefaultPage">
+        <section className="BackgroundVideo-section section">
+          <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
+            {video && <source src={video} type="video/mp4" />}
+          </BackgroundVideo>
+        </section>
+        <section className="section">
+          <div className="container">
+            <Content source={body} />
+          </div>
+        </section>
+      </main>
+    )
+  }
+}
 
 const DefaultPage = ({ data: { page } }) => (
   <Layout
