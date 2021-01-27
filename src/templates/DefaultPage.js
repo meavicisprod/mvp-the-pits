@@ -16,7 +16,10 @@ export const DefaultPageTemplate = ({
   videoPoster,
   videoTitle,
 }) => {
-  if (featuredImage !== null || featuredImage !== undefined || featuredImage !== "") {
+
+  const featuredImageAbsent = (featuredImage === "" || featuredImage === undefined || featuredImage === null)
+
+  if (!featuredImageAbsent) {
     return (
       <main className="DefaultPage">
         <PageHeader
@@ -24,13 +27,14 @@ export const DefaultPageTemplate = ({
           subtitle={subtitle}
           backgroundImage={featuredImage}
         />
+
         <section className="section">
           <div className="container">
             <Content source={body} />
           </div>
         </section>
       </main>
-    )
+    );
   } else {
     return (
       <main className="DefaultPage">
@@ -39,15 +43,16 @@ export const DefaultPageTemplate = ({
             {video && <source src={video} type="video/mp4" />}
           </BackgroundVideo>
         </section>
+
         <section className="section">
           <div className="container">
             <Content source={body} />
           </div>
         </section>
       </main>
-    )
+    );
   }
-}
+};
 
 const DefaultPage = ({ data: { page } }) => (
   <Layout
