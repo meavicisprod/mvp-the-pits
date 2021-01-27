@@ -17,11 +17,13 @@ export const DefaultPageTemplate = ({
   videoTitle,
 }) => (
   <main className="DefaultPage">
-    <PageHeader
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
+    if (title || subtitle || featuredImage) {
+      <PageHeader
+        title={title}
+        subtitle={subtitle}
+        backgroundImage={featuredImage}
+      />
+    }
 
     <section className="section">
       <div className="container">
