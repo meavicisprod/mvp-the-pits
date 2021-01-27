@@ -257,11 +257,11 @@ collections: # A list of collections the CMS should be able to edit
         }
       - { label: Slug, name: slug, widget: string }
       - { label: Title, name: title, widget: string }
-      - { label: Featured Image, name: featuredImage, widget: image }
-      - { name: video, label: video, widget: file }
-      - { name: videoPoster, label: videoPoster, widget: image }
-      - { label: videoTitle, name: videoTitle, widget: string }
-      - { label: Body, name: body, widget: markdown }
+      - { label: Featured Image, name: featuredImage, widget: image, required: false }
+      - { name: video, label: video, widget: file, required: false  }
+      - { name: videoPoster, label: videoPoster, widget: image, required: false  }
+      - { label: videoTitle, name: videoTitle, widget: string, required: false  }
+      - { label: Body, name: body, widget: markdown, required: false }
       - label: 'Meta'
         required: false
         name: 'meta'

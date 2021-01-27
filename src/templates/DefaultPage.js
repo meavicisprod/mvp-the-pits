@@ -11,7 +11,10 @@ export const DefaultPageTemplate = ({
   title,
   subtitle,
   featuredImage,
-  body
+  body,
+  video,
+  videoPoster,
+  videoTitle,
 }) => (
   <main className="DefaultPage">
     <PageHeader
@@ -25,6 +28,12 @@ export const DefaultPageTemplate = ({
         <Content source={body} />
         <SVGIcon src="/images/calendar.svg" />
       </div>
+    </section>
+
+    <section className="BackgroundVideo-section section">
+      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
+        {video && <source src={video} type="video/mp4" />}
+      </BackgroundVideo>
     </section>
   </main>
 )
@@ -48,6 +57,9 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        video
+        videoPoster
+        videoTitle
       }
     }
   }
