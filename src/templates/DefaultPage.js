@@ -16,7 +16,7 @@ export const DefaultPageTemplate = ({
   videoPoster,
   videoTitle,
 }) => {
-  if (title !== null || title !== undefined || backgroundImage !== null || backgroundImage !== undefined || subtitle !== null || subtitle !== undefined) {
+  if (title !== null || title !== undefined || title !== "" || backgroundImage !== null || backgroundImage !== undefined || backgroundImage !== "" || subtitle !== null || subtitle !== undefined || subtitle !== "") {
     return (
       <main className="DefaultPage">
         <PageHeader
@@ -31,7 +31,7 @@ export const DefaultPageTemplate = ({
         </section>
       </main>
     )
-  } else if (video !== null || video !== undefined || videoPoster !== null || videoPoster !== undefined || videoTitle !== undefined) {
+  } else if (video !== null || video !== undefined || video !== "" || videoPoster !== null || videoPoster !== undefined || videoPoster !== "" || videoTitle !== undefined || videoTitle !== null || videoTitle !== "") {
     return (
       <main className="DefaultPage">
         <section className="BackgroundVideo-section section">
