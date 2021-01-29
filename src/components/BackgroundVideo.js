@@ -18,11 +18,11 @@ class BackgroundVideo extends Component {
     this.setState({ mobileWidth: window.innerWidth <= 900 })
   }
 
-  handelPlay() {
+  handlePlay() {
     this.setState({ playing: true })
     ReactDOM.findDOMNode(this.ref.current).removeEventListener(
       'playing',
-      this.handelPlay
+      this.handlePlay
     )
   }
 
@@ -30,7 +30,7 @@ class BackgroundVideo extends Component {
     this.updateDimensions()
     window.addEventListener('resize', () => this.updateDimensions())
     ReactDOM.findDOMNode(this.ref.current).addEventListener('playing', e =>
-      this.handelPlay(e)
+      this.handlePlay(e)
     )
   }
 
@@ -40,10 +40,19 @@ class BackgroundVideo extends Component {
 
   render() {
     const { poster, videoTitle, videoSubTitle, videoTitleLink, mobileResponsive, children } = this.props
+    // const [isLoaded, setIsVideoLoaded] = React.useState(false);
+
+    // const onLoadedData = () => {
+    //   setIsVideoLoaded(true);
+    // }
 
     if (mobileResponsive === "no") {
       return (
         <Fragment>
+          {/* <Fragment>
+            <Image background src={poster} alt="Background poster" className="BackgroundVideo--poster-tiny" />
+          </Fragment> */}
+
           <div className={`BackgroundVideo`}>
             <video
               ref={this.ref}
