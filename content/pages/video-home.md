@@ -2,8 +2,8 @@
 template: VideoHomePage
 slug: ""
 title: Test Video Home Page
-video: https://ucarecdn.com/e182f784-cfb5-4e57-b488-cd8c553de323/
-videoPoster: https://ucarecdn.com/fefaf1ec-8559-4485-84d0-7e0551d400b1/
+video: https://ucarecdn.com/3082a998-a5f3-4876-a1a8-6df10cf82c90/
+videoPoster: https://ucarecdn.com/f1556116-acdf-4d0c-9fc7-11f0f0609b37/
 videoTitle: Test Video Home Page
 videoSubTitle: A Mea Vicis Production
 ---
