@@ -7,6 +7,7 @@ video: ""
 videoPoster: ""
 videoTitle: ""
 videoSubTitle: ""
+mobileResponsive: ""
 meta:
   description: test meta description
   title: test meta title

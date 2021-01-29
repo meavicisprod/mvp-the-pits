@@ -15,7 +15,8 @@ export const VideoHomePageTemplate = ({
   video,
   videoPoster,
   videoTitle,
-  videoSubTitle
+  videoSubTitle,
+  mobileResponsive
 }) => {
 
   const featuredImageAbsent = (featuredImage === "" || featuredImage === undefined || featuredImage === null)
@@ -40,7 +41,7 @@ export const VideoHomePageTemplate = ({
     return (
       <main className="VideoHomePage">
         <section className="BackgroundVideo-section-fullHeight section">
-          <BackgroundVideo poster={videoPoster} videoTitle={videoTitle} videoSubTitle={videoSubTitle}>
+          <BackgroundVideo poster={videoPoster} videoTitle={videoTitle} videoSubTitle={videoSubTitle} mobileResponsive={mobileResponsive}>
             {video && <source src={video} type="video/mp4" />}
           </BackgroundVideo>
         </section>
@@ -77,7 +78,8 @@ export const pageQuery = graphql`
         video
         videoPoster
         videoTitle
-        videoSubTitle
+        videoSubTitle,
+        mobileResponsive
       }
     }
   }

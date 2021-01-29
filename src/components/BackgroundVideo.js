@@ -39,10 +39,11 @@ class BackgroundVideo extends Component {
   }
 
   render() {
-    const { poster, videoTitle, videoSubTitle, children } = this.props
-    return (
-      <Fragment>
-        {!this.state.mobileWidth && (
+    const { poster, videoTitle, videoSubTitle, mobileResponsive, children } = this.props
+
+    if (mobileResponsive === "no") {
+      return (
+        <Fragment>
           <div className={`BackgroundVideo`}>
             <video
               ref={this.ref}
@@ -65,16 +66,45 @@ class BackgroundVideo extends Component {
               <div className="BackgroundVideo--videoSubTitle">{videoSubTitle}</div>
             )}
           </div>
-        )}
-        {this.state.mobileWidth && (
-          <Fragment>
-            <Image background src={poster} alt="Background poster" />
-            {videoTitle && <h3 className="Poster--videoTitle">{videoTitle}</h3>}
-            {videoSubTitle && <h3 className="Poster--videoSubTitle">{videoSubTitle}</h3>}
-          </Fragment>
-        )}
       </Fragment>
-    )
+      )
+    } else {
+      return (
+        <Fragment>
+          {!this.state.mobileWidth && (
+            <div className={`BackgroundVideo`}>
+              <video
+                ref={this.ref}
+                poster={poster}
+                className={`BackgroundVideo--video ${
+                  this.state.playing ? 'playing' : ''
+                } `}
+                playsInline
+                autoPlay
+                muted
+                loop
+                preload="auto"
+              >
+                {children}
+              </video>
+              {videoTitle && (
+                <div className="BackgroundVideo--videoTitle">{videoTitle}</div>
+              )}
+              {videoSubTitle && (
+                <div className="BackgroundVideo--videoSubTitle">{videoSubTitle}</div>
+              )}
+            </div>
+          )}
+          {this.state.mobileWidth && (
+            <Fragment>
+              <Image background src={poster} alt="Background poster" />
+              {videoTitle && <h3 className="Poster--videoTitle">{videoTitle}</h3>}
+              {videoSubTitle && <h3 className="Poster--videoSubTitle">{videoSubTitle}</h3>}
+            </Fragment>
+          )}
+        </Fragment>
+      )
+    }
   }
 }
 

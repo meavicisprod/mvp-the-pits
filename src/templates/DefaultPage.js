@@ -15,7 +15,8 @@ export const DefaultPageTemplate = ({
   video,
   videoPoster,
   videoTitle,
-  videoSubTitle
+  videoSubTitle,
+  mobileResponsive
 }) => {
 
   const featuredImageAbsent = (featuredImage === "" || featuredImage === undefined || featuredImage === null)
@@ -40,7 +41,7 @@ export const DefaultPageTemplate = ({
     return (
       <main className="DefaultPage">
         <section className="BackgroundVideo-section section">
-          <BackgroundVideo poster={videoPoster} videoTitle={videoTitle} videoSubTitle={videoSubTitle}>
+          <BackgroundVideo poster={videoPoster} videoTitle={videoTitle} videoSubTitle={videoSubTitle} mobileResponsive={mobileResponsive}>
             {video && <source src={video} type="video/mp4" />}
           </BackgroundVideo>
         </section>
@@ -78,6 +79,7 @@ export const pageQuery = graphql`
         videoPoster
         videoTitle
         videoSubTitle
+        mobileResponsive
       }
     }
   }

@@ -6,6 +6,7 @@ featuredImage: "https://ucarecdn.com/f1556116-acdf-4d0c-9fc7-11f0f0609b37/"
 video: ""
 videoPoster: ""
 videoSubTitle: ""
+mobileResponsive: ""
 videoTitle: ""
 ---
 (It's) the Pits is a 3-part project, brought to you by MVP, in partnership with a broad coalition of partner artists, not-for-profit organizations, private individuals and small businesses.
