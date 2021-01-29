@@ -16,7 +16,8 @@ export const DefaultPageTemplate = ({
   videoPoster,
   videoTitle,
   videoSubTitle,
-  mobileResponsive
+  mobileResponsive,
+  videoTitleLink
 }) => {
 
   const featuredImageAbsent = (featuredImage === "" || featuredImage === undefined || featuredImage === null)
@@ -80,6 +81,7 @@ export const pageQuery = graphql`
         videoTitle
         videoSubTitle
         mobileResponsive
+        videoTitleLink
       }
     }
   }

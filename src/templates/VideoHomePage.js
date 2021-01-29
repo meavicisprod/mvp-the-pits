@@ -16,6 +16,7 @@ export const VideoHomePageTemplate = ({
   videoPoster,
   videoTitle,
   videoSubTitle,
+  videoTitleLink,
   mobileResponsive
 }) => {
 
@@ -41,7 +42,7 @@ export const VideoHomePageTemplate = ({
     return (
       <main className="VideoHomePage">
         <section className="BackgroundVideo-section-fullHeight section">
-          <BackgroundVideo poster={videoPoster} videoTitle={videoTitle} videoSubTitle={videoSubTitle} mobileResponsive={mobileResponsive}>
+          <BackgroundVideo poster={videoPoster} videoTitle={videoTitle} videoSubTitle={videoSubTitle} videoTitleLink={videoTitleLink} mobileResponsive={mobileResponsive}>
             {video && <source src={video} type="video/mp4" />}
           </BackgroundVideo>
         </section>
@@ -79,6 +80,7 @@ export const pageQuery = graphql`
         videoPoster
         videoTitle
         videoSubTitle,
+        videoTitleLink,
         mobileResponsive
       }
     }

@@ -157,6 +157,7 @@ collections: # A list of collections the CMS should be able to edit
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
           - { label: videoSubTitle, name: videoSubTitle, widget: string }
+          - { label: videoTitleLink, name: videoTitleLink, widget: string, required: false }
           - { label: mobileResponsive, name: mobileResponsive, widget: string, required: false }
           - label: 'accordion'
             name: 'accordion'
@@ -260,6 +261,7 @@ collections: # A list of collections the CMS should be able to edit
           - { name: videoPoster, label: videoPoster, widget: image, required: false }
           - { label: videoTitle, name: videoTitle, widget: string, required: false }
           - { label: videoSubTitle, name: videoSubTitle, widget: string, required: false }
+          - { label: videoTitleLink, name: videoTitleLink, widget: string, required: false }
           - { label: mobileResponsive, name: mobileResponsive, widget: string, required: false, default: "no" }
           - { label: Body, name: body, widget: markdown, required: false }
           - label: 'Meta'
@@ -310,6 +312,7 @@ collections: # A list of collections the CMS should be able to edit
       - { name: videoPoster, label: videoPoster, widget: image, required: false  }
       - { label: videoTitle, name: videoTitle, widget: string, required: false  }
       - { label: videoSubTitle, name: videoSubTitle, widget: string, required: false  }
+      - { label: videoTitleLink, name: videoTitleLink, widget: string, required: false }
       - { label: mobileResponsive, name: mobileResponsive, widget: string, required: false }
       - { label: Body, name: body, widget: markdown, required: false }
       - label: 'Meta'

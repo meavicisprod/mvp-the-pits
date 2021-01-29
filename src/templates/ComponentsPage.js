@@ -21,6 +21,7 @@ export const ComponentsPageTemplate = ({
   videoTitle,
   videoSubTitle,
   mobileResponsive,
+  videoTitleLink,
   accordion,
   body,
   gallery
@@ -100,7 +101,8 @@ export const pageQuery = graphql`
         videoPoster
         videoTitle
         videoSubTitle
-        mobileResponsive
+        mobileResponsive,
+        videoTitleLink,
         accordion {
           title
           description

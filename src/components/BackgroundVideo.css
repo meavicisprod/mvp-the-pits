@@ -87,4 +87,8 @@
   color: white;
   text-shadow: 1px 1px 1px grey;
 }
+
+.BackgroundVideo--videoTitle__link {
+  color: var(--lightGrey);
+}
 /* END CUSTOM CSS */

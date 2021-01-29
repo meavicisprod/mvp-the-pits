@@ -8,6 +8,7 @@ videoPoster: ""
 videoSubTitle: ""
 mobileResponsive: ""
 videoTitle: ""
+videoTitleLink: ""
 ---
 (It's) the Pits is a 3-part project, brought to you by MVP, in partnership with a broad coalition of partner artists, not-for-profit organizations, private individuals and small businesses.
 

@@ -39,7 +39,7 @@ class BackgroundVideo extends Component {
   }
 
   render() {
-    const { poster, videoTitle, videoSubTitle, mobileResponsive, children } = this.props
+    const { poster, videoTitle, videoSubTitle, videoTitleLink, mobileResponsive, children } = this.props
 
     if (mobileResponsive === "no") {
       return (
@@ -60,7 +60,9 @@ class BackgroundVideo extends Component {
               {children}
             </video>
             {videoTitle && (
-              <div className="BackgroundVideo--videoTitle">{videoTitle}</div>
+              <div className="BackgroundVideo--videoTitle">
+                <a className="BackgroundVideo--videoTitle__link" href={videoTitleLink}>{videoTitle}</a>
+              </div>
             )}
             {videoSubTitle && (
               <div className="BackgroundVideo--videoSubTitle">{videoSubTitle}</div>
