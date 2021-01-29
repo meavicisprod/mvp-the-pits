@@ -1,4 +1,5 @@
 ---
+template: VideoHomePage
 slug: test-video-home
 title: Test Video Home Page
 video: https://ucarecdn.com/5fdfee68-e80f-4e6d-a133-092830f44f3c/
