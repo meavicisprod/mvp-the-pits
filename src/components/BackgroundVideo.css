@@ -3,6 +3,16 @@
   overflow: hidden;
   height: 40rem;
 }
+
+/* Start Custom Class */
+.BackgroundVideo-section-fullHeight {
+  position: relative;
+  overflow: hidden;
+  /* .Nav--Container = 6rem/6vh; */
+  height: 94vh;
+}
+/* End Custom Class  */
+
 .BackgroundVideo {
   display: block;
   position: absolute;

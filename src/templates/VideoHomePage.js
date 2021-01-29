@@ -38,7 +38,7 @@ export const VideoHomePageTemplate = ({
   } else {
     return (
       <main className="VideoHomePage">
-        <section className="BackgroundVideo-section section">
+        <section className="BackgroundVideo-section-fullHeight section">
           <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
             {video && <source src={video} type="video/mp4" />}
           </BackgroundVideo>

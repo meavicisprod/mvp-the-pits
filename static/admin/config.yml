@@ -204,7 +204,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: HomePage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: '' }
+          - { label: Slug, name: slug, widget: hidden, default: 'yellowcake' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
@@ -250,7 +250,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: VideoHomePage,
             }
-          - { label: Slug, name: slug, widget: string }
+          - { label: Slug, name: slug, widget: hidden, default: '' }
           - { label: Title, name: title, widget: string, required: false }
           - { label: Featured Image, name: featuredImage, widget: image, required: false }
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
