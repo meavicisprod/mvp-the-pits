@@ -55,10 +55,36 @@
   top: 50%;
   left: 0;
   transform: translate(0, -50%);
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   width: 100%;
   text-align: center;
   color: white;
   text-shadow: 1px 1px 1px grey;
 }
+
+/* START CUSTOM CSS */
+.BackgroundVideo--videoSubTitle {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  transform: translate(0, -50%);
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.Poster--videoSubTitle {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  transform: translate(0, -50%);
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+}
+/* END CUSTOM CSS */
