@@ -2,7 +2,7 @@
 template: VideoHomePage
 slug: test-video-home
 title: Test Video Home Page
-video: https://ucarecdn.com/5fdfee68-e80f-4e6d-a133-092830f44f3c/
+video: https://ucarecdn.com/e182f784-cfb5-4e57-b488-cd8c553de323/
 videoPoster: https://ucarecdn.com/6cd5164a-e829-4fe2-8e2c-cf7de0722876/
 videoTitle: Test Video Home Page
 ---
