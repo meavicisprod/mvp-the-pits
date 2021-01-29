@@ -3,10 +3,9 @@ import './Footer.css'
 
 export default () => (
   <div>
-    <h2 className="taCenter">
-      Get in touch{' '}
-      <a href="https://instagram.com/al_thealater/">@al_thealater</a>
-    </h2>
+    <h3 className="taCenter">
+      <a href="/contact/">Get in touch</a>
+    </h3>
     <br />
     <footer className="footer">
       <div className="container taCenter">

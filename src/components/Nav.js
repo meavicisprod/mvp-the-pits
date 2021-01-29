@@ -108,7 +108,8 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/about-us/">About the MVP Collective</NavLink>
+            <NavLink to="/about-the-pits/">About the Pits</NavLink>
+            <NavLink to="/about/">About MVP</NavLink>
             <NavLink to="/contact/">Contact Us</NavLink>
           </div>
           <button
