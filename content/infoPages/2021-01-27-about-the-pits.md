@@ -1,8 +1,18 @@
 ---
-template: DefaultPage
+template: HeroTextGalleryPage
 slug: about-the-pits
 title: About the Pits
 featuredImage: "https://ucarecdn.com/f1556116-acdf-4d0c-9fc7-11f0f0609b37/"
+gallery:
+  - image: https://ucarecdn.com/699b0f71-ecf7-4702-a244-347410fc3c72/
+    alt: Bear
+    title: This is a Bear
+  - image: https://ucarecdn.com/86aecf6d-1eec-428e-b83f-caec2684dafe/
+    alt: Another Bera
+    title: Oh look another bear
+  - alt: A new bear
+    image: https://ucarecdn.com/ed50d87a-f5b5-4fc7-b260-83119b7f7a17/
+    title: beary
 video: ""
 videoPoster: ""
 videoSubTitle: ""
