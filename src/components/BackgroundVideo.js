@@ -40,19 +40,10 @@ class BackgroundVideo extends Component {
 
   render() {
     const { poster, videoTitle, videoSubTitle, videoTitleLink, mobileResponsive, children } = this.props
-    // const [isLoaded, setIsVideoLoaded] = React.useState(false);
-
-    // const onLoadedData = () => {
-    //   setIsVideoLoaded(true);
-    // }
 
     if (mobileResponsive === "no") {
       return (
         <Fragment>
-          {/* <Fragment>
-            <Image background src={poster} alt="Background poster" className="BackgroundVideo--poster-tiny" />
-          </Fragment> */}
-
           <div className={`BackgroundVideo`}>
             <video
               ref={this.ref}

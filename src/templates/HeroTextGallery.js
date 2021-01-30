@@ -4,14 +4,16 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Content from '../components/Content'
+import Gallery from '../components/Gallery'
 import Layout from '../components/Layout'
 
 // Export Template for use in CMS preview
-export const DefaultPageTemplate = ({
+export const HeroTextGalleryPageTemplate = ({
   title,
   subtitle,
   featuredImage,
   body,
+  gallery,
   video,
   videoPoster,
   videoTitle,
@@ -24,7 +26,7 @@ export const DefaultPageTemplate = ({
 
   if (!featuredImageAbsent) {
     return (
-      <main className="DefaultPage">
+      <main className="HeroTextGalleryPage">
         <PageHeader
           title={title}
           subtitle={subtitle}
@@ -36,11 +38,17 @@ export const DefaultPageTemplate = ({
             <Content source={body} />
           </div>
         </section>
+
+        <section className="section">
+            <div className="container">
+                <Gallery images={gallery} />
+            </div>
+        </section>
       </main>
     );
   } else {
     return (
-      <main className="DefaultPage">
+      <main className="HeroTextGalleryPage">
         <section className="BackgroundVideo-section section">
           <BackgroundVideo poster={videoPoster} videoTitle={videoTitle} videoTitleLink={videoTitleLink} videoSubTitle={videoSubTitle} mobileResponsive={mobileResponsive}>
             {video && <source src={video} type="video/mp4" />}
@@ -52,25 +60,32 @@ export const DefaultPageTemplate = ({
             <Content source={body} />
           </div>
         </section>
+
+        <section className="section">
+            <div className="container">
+                <Gallery images={gallery} />
+            </div>
+        </section>
       </main>
     );
   }
 };
 
-const DefaultPage = ({ data: { page } }) => (
+const HeroTextGalleryPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <DefaultPageTemplate {...page.frontmatter} body={page.html} />
+    <HeroTextGalleryPageTemplate {...page.frontmatter} body={page.html} />
   </Layout>
 )
-export default DefaultPage
+export default HeroTextGalleryPage
 
 export const pageQuery = graphql`
-  query DefaultPage($id: String!) {
+  query HeroTextGalleryPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...Gallery
       html
       frontmatter {
         title

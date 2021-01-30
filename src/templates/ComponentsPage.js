@@ -52,7 +52,7 @@ export const ComponentsPageTemplate = ({
     </section>
 
     <section className="BackgroundVideo-section section">
-      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle} videoSubTitle={videoSubTitle} mobileResponsive={mobileResponsive}>
+      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle} videoTitleLink={videoTitleLink} videoSubTitle={videoSubTitle} mobileResponsive={mobileResponsive}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
     </section>
