@@ -1,18 +1,23 @@
 ---
 template: SinglePost
-title: Cat
+title: "Funding Update #1 "
 status: Published
-date: '2018-03-28'
-featuredImage: >-
-  https://ucarecdn.com/69bcae44-f555-4b56-b08e-bd0f2013654a/-/crop/1634x1690/0,434/-/preview/
-excerpt: This is an excerpt of Post Two
+date: 2021-01-30
+featuredImage: https://ucarecdn.com/69bcae44-f555-4b56-b08e-bd0f2013654a/-/crop/1634x1690/0,434/-/preview/
+excerpt: MVP is currently working on a grant application to potentially secure
+  up to $8000 in funding for the upcoming "(It's) the Pits" project.
 categories:
   - category: Updates
 meta:
-  description: test meta description
-  title: test meta title
+  description: ""
+  title: "Funding Update #1 "
 ---
+![](https://ucarecdn.com/9223b209-21f6-42e3-83c6-79184a6a81c8/)
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language. Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website.
+MVP is currently working on a grant application to potentially secure up to $8000 in funding for the upcoming "(It's) the Pits" project.
 
-This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+We will be applying for a second grant towards the end of February, and are awaiting the results of a third grant at this very moment.e
+
+In the event that grants are not secured, we will be putting a contingency plan into place in order to execute as much of our three-part plan as possible.
+
+We will likely have a more solid idea of our state of funding sometime around April.
