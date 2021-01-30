@@ -27,12 +27,16 @@ This has resulted in a huge ripple in the community, creating a glaring vacuum i
 "(It's) the Pits" was born straight out of the ashes of this loss.
 
 ## Goals
-The project will be led by a coalition of MVP members and partner artists/community supporters, who will work with folks from the Toronto skate community to execute the following three goals:
+The project will be led by a coalition of MVP members and partner artists/community supporters, who will work with participants from the Toronto skate community to execute the following three goals:
 
 1. Through reclaiming the Sid Smith ice rink, demonstrate the intensity of the Toronto skate community’s love/need of the former Christie Pits Skatepark;
 
-2. Guide participants in learning about Collective Creation, improv and acting, teaching the art of crafting narratives rather than to passively accept (typically) negative accounts of what it means to be a skater and/or an artist;
+2. Guide participants in learning about Collective Creation, improv and acting, teaching the art of crafting narratives rather than to passively accept (typically) negative accounts of what it means to be a skater and/or an artist. MVP will work with the actors to create a short film as a testament to their new skills and as a permanent homage to Christie;
 
-3. Invite non-skaters to participate in a dialogue about the importance of skate culture within the urban landscape by publicly displaying interactive co-created skate sculptures. The co-construction process will convey the skate community’s diverse range of artistic sensibilities, but its united grief over the loss of Christie Skatepark.
+3. Invite non-skaters to participate in a dialogue about the importance of skate culture within the urban landscape by publicly displaying interactive co-created skate sculptures. The co-construction process will convey the skate community’s diverse range of artistic sensibilities, but its united grief over the loss of Christie Pits Skatepark.
 
-## (It's) the Pits
+### Reclaiming Space
+
+### (It's) the Pits - the Film
+
+### (It's) the Pits - the Installation
