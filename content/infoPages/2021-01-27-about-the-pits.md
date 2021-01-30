@@ -27,7 +27,7 @@ This has resulted in a huge ripple in the community, creating a glaring vacuum i
 "(It's) the Pits" was born straight out of the ashes of this loss.
 
 ## Goals
-The project can be framed in three parts with three goals:
+The project will be led by a coalition of MVP members and partner artists/community supporters, who will work with folks from the Toronto skate community to execute the following three goals:
 
 1. Through reclaiming the Sid Smith ice rink, demonstrate the intensity of the Toronto skate community’s love/need of the former Christie Pits Skatepark;
 
