@@ -59,7 +59,7 @@ We will document the creation via a short film, to both stand as a testament to 
 
 Skateboarding and painting, skateboarding and cinema - these are no strange bedfellows; and skate obstacles as sculpture can be seen as one and the same. DIY is practically a core tenet of skate culture, as Christie’s very existence demonstrates.
 
-Sealing the deal between art and skateboarding, however, are practitioners such as [Raphaël Zarka](http://raphaelzarka.com/) and  “official” representation in the form of spaces such as the Museu d'Art Contemporani de Barcelona, one of the world’s most famous sanctioned skateboarding spots… which doubles as the site of a literal museum.
+Sealing the deal between art and skateboarding, however, are practitioners such as [Raphaël Zarka](http://raphaelzarka.com/) and  “official” representation in the form of spaces such as the Museu d'Art Contemporani de Barcelona, one of the world’s most famous "tolerated" skateboarding spots… which doubles as the site of a literal museum.
 
 We seek to continue this tradition.
 
