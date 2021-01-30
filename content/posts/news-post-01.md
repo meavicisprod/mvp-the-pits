@@ -10,11 +10,11 @@ categories:
   - category: News
 meta:
   canonicalLink: ""
-  description: test meta description
+  description: ""
   noindex: false
-  title: test meta title
+  title: Collaboration Announcement
 ---
-MVP is excited to announce that we're slowly but steadily beginning to gain traction on the Installation component of "(It's) the Pits"! 
+MVP is excited to announce that we're slowly but steadily beginning to gain traction on the Installation component of ["(It's) the Pits"](/about-the-pits)! 
 
 A few artists from the local community who will be collaborating with us include: 
 
