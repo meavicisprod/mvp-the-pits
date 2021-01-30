@@ -12,8 +12,10 @@ meta:
   canonicalLink: ""
   description: ""
   noindex: false
-  title: Collaboration Announcement
+  title: New Collaborators
 ---
+![](https://ucarecdn.com/835333fa-0d99-41d7-8792-522b207add64/)
+
 MVP is excited to announce that we're slowly but steadily beginning to gain traction on the Installation component of ["(It's) the Pits"](/about-the-pits)! 
 
 A few artists from the local community who will be collaborating with us include: 
