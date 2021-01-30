@@ -4,8 +4,8 @@ title: New Collaborators
 status: Published
 date: 2021-01-23
 featuredImage: https://ucarecdn.com/0d0ca8ce-21ff-422f-aa7a-11e95e497aa4/
-excerpt: "MVP is excited to announce that we're slowly but steadily beginning to
-  gain traction on the Installation component of \"(It's) the Pits\"! "
+excerpt: "MVP is excited to announce that we're slowly but steadily gaining
+  traction on the Installation component of \"(It's) the Pits\"! "
 categories:
   - category: News
 meta:
@@ -14,7 +14,7 @@ meta:
   noindex: false
   title: New Collaborators
 ---
-We're excited to announce that we're slowly but steadily beginning to gain traction on the Installation component of ["(It's) the Pits"](/about-the-pits)! 
+We're excited to announce that we're slowly but steadily gaining traction on the Installation component of ["(It's) the Pits"](/about-the-pits)! 
 
 A few artists from the local community who will be collaborating with us include: 
 
