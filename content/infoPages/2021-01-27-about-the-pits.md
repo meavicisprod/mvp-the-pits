@@ -11,25 +11,28 @@ videoSubTitle: ""
 videoTitleLink: ""
 mobileResponsive: ""
 ---
-(It's) the Pits is a 3-part project, brought to you by MVP, in partnership with a broad coalition of partner artists, not-for-profit organizations, private individuals and small businesses.
 
+> **(It's) the Pits** is a a 3-part project that invites local artists to guide participants in developing the agency to confidently partake in both skateboarding and in creative/tactical place-making through acting, sculpture and painting.
 
-*Hijinks and high drama simmer to a boiling point on the last day of summer, during a 10-minute ride through the most popular skate park in town.*
+>The project also seeks to foster dialogue with the general public by inviting them as exhibit spectators.
 
+## Background Info
 
+The DIY [Christie Pits Skatepark](https://www.instagram.com/cpskateboardpark/?hl=en) in downtown Toronto was a particularly well-loved summer staple for skaters from across the GTA, but especially for those who live between Etobicoke and East York.
 
-\- Toronto
+While this may seem like a large geographic spread, the lack of skateparks in Toronto is a known problem - hence the DIY nature of Christie Pits. Recently, however, this tradition has been brought to a halt due to conflict with a small number of local residents whose homes abut the park.
 
-\- Christie Pits Skate Park
+This has resulted in a huge ripple in the community, creating a glaring vacuum in the middle of one of the biggest cities in North America. (Two other Toronto skateparks will also be unavailable for the upcoming season due to construction, while another DIY space, Arizona, was also recently torn down.)
 
-\- DIY
+"(It's) the Pits" was born straight out of the ashes of this loss.
 
-\- Short Film
+## Goals
+The project can be framed in three parts with three goals:
 
-\- TAC
+1. Through reclaiming the Sid Smith ice rink, demonstrate the intensity of the Toronto skate community’s love/need of the former Christie Pits Skatepark;
 
-\- More Keywords
+2. Guide participants in learning about Collective Creation, improv and acting, teaching the art of crafting narratives rather than to passively accept (typically) negative accounts of what it means to be a skater and/or an artist;
 
-\- Let's fill this up
+3. Invite non-skaters to participate in a dialogue about the importance of skate culture within the urban landscape by publicly displaying interactive co-created skate sculptures. The co-construction process will convey the skate community’s diverse range of artistic sensibilities, but its united grief over the loss of Christie Skatepark.
 
-\- Anything else?
+## (It's) the Pits
