@@ -11,7 +11,7 @@ videoSubTitle: ""
 videoTitleLink: ""
 mobileResponsive: ""
 ---
-> <http://raphaelzarka.com/>**(It's) the Pits** is a a 3-part project that invites local artists to guide participants in developing the agency to confidently partake in both skateboarding and in creative/tactical place-making through space reclamation, acting and sculpture art.
+> [](http://raphaelzarka.com/)**(It's) the Pits** is a 3-part project that invites local artists to guide participants in developing the agency to confidently partake in both skateboarding and in creative/tactical place-making through space reclamation, acting and sculpture art.
 >
 > The project also seeks to foster dialogue with the general public by inviting them as exhibit spectators.
 
