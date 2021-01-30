@@ -12,11 +12,9 @@ meta:
   description: ""
   title: "Funding Update #1 "
 ---
-![](https://ucarecdn.com/9223b209-21f6-42e3-83c6-79184a6a81c8/)
-
 MVP is currently working on a grant application to potentially secure up to $8000 in funding for the upcoming "(It's) the Pits" project.
 
-We will be applying for a second grant towards the end of February, and are awaiting the results of a third grant at this very moment.e
+We will be applying for a second grant towards the end of February and are awaiting the results of a third grant at this time of writing.
 
 In the event that grants are not secured, we will be putting a contingency plan into place in order to execute as much of our three-part plan as possible.
 
