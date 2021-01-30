@@ -3,7 +3,7 @@ template: SinglePost
 title: "Funding Update #1 "
 status: Published
 date: 2021-01-30
-featuredImage: https://ucarecdn.com/69bcae44-f555-4b56-b08e-bd0f2013654a/-/crop/1634x1690/0,434/-/preview/
+featuredImage: https://ucarecdn.com/a02d3bc1-bda7-4c68-9f86-7e1c633ea19d/
 excerpt: MVP is currently working on a grant application to potentially secure
   up to $8000 in funding for the upcoming "(It's) the Pits" project.
 categories:
