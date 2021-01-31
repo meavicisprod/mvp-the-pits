@@ -24,6 +24,4 @@ Josh Singal
 
 Kayla Buium
 
-Matt Lauricella
-
 Stay tuned to learn more about how we'll be working with this awesome team to help lead the community in both sending a message to the public and in creating the skatepark of our dreams!
