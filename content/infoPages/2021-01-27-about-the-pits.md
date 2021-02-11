@@ -51,7 +51,7 @@ Losing one's second home is most definitely the pits and deserves a permanent pl
 
 MVP will be working with interested participants in developing their acting skills, using a base script to kickoff an exercise in ensemble character exploration and improv techniques, resulting in a final script through the Collective Creation process.
 
-We will document the creation via a short film, to both stand as a testament to participants’ skills and as a permanent homage to the former Christie Pits Skatepark. In the interest of staying true to the DIY spirit that made Christie what it was, the set of the film will be an interactive art installation in and of itself...
+We will document the creation via a short fictional film, to both stand as a testament to participants’ skills and as a permanent homage to the former Christie Pits Skatepark. In the interest of staying true to the DIY spirit that made Christie what it was, the set of the film will be an interactive art installation in and of itself...
 
 ### (It's) the Pits - the Installation
 
